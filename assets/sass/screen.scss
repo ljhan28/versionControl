@@ -1,0 +1,394 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+html {
+  body {
+    div#divStripe {
+      text-align: center;
+      background: url("../head.png") repeat-x;
+      margin-top: 4.5%;
+
+    }
+
+    #search{
+      display:none;
+    }
+    #menu-container {
+      text-align: center;
+      border: .1em solid #1c8b50;
+      margin: 1em 4em 1em 4em;
+      font-size: 1.7rem;
+      nav {
+        background: none;
+
+        height: 5rem;
+        margin: 0 auto;
+
+
+        font-family: 'Roboto', sans-serif;
+
+        display: inline-block;
+      }
+      nav li {
+        display: inline-block;
+        float: left;
+        position: relative;
+        margin: 1em 2em 0em 2em;
+
+      }
+      nav li a {
+        color: #1c8b50;
+        text-decoration: none;
+        padding: 6% 16%;
+
+      }
+
+      nav li a:hover {
+        background: none;
+      }
+
+      nav li a span {
+        width: 25px;
+        margin: 0 auto;
+      }
+
+      nav li a:hover:after {
+        border-left: solid transparent 15px;
+        border-right: solid transparent 15px;
+        bottom: -1.17em;
+        border-bottom: solid #1c8b50 15px;
+        content: " ";
+        height: 0;
+        left: 50%;
+        margin-left: -10px;
+        position: absolute;
+        width: 0;
+      }
+    }
+
+    #header3 {
+      display: block;
+      font-size: 2em;
+      font-family: Terminal Dosis;
+      font-weight: 500;
+      margin: 2%;
+
+    }
+
+    #h2 {
+      text-align: center;
+      font-size: 1.6em;
+      font-family: Terminal Dosis;
+      margin-top: 2%;
+    }
+
+    #section1 {
+      display: inline-block;
+      margin: 6% 33.5% 3% 33.5%;
+    }
+
+    #regform {
+      color: #ef2b2f;
+      float: left;
+      display: inline-block;
+      margin-top: -1.1em;
+      font-weight: bold;
+      font-size: 2rem;
+      font-family: Terminal Dosis;
+      margin-left: -.5em;
+    }
+
+    #form {
+      font-family: Terminal Dosis;
+      border-radius: 7px;
+      box-shadow: 0px 3px 100px #706f71;
+      width: 101%;
+      margin-left: -4%;
+      display: inline-block;
+      padding: 10%;
+
+      #name {
+        font-size: 1.7em;
+        display: inline-block;
+        margin: 3% 0% 0% 0%;
+        text-align: left;
+      }
+
+      #font-name {
+        font-size: 1rem;
+        border: #ededed;
+        background: #ededed;
+        margin-left: 1rem;
+        padding: 1rem 9.3rem 1rem 0rem;
+      }
+
+      #email {
+        font-size: 1.7em;
+        display: inline-block;
+        margin: 3% 0% 0% 0%;
+        text-align: left;
+      }
+
+      #font-email {
+        font-size: 1rem;
+        border: #ededed;
+        background: #ededed;
+        margin-left: 1rem;
+        padding: 1rem 9.3rem 1rem 0rem;
+      }
+      #dob {
+        font-size: 1.5em;
+        display: inline-block;
+        margin: 5% 2% 0% 0%;
+      }
+
+      #sel-dob {
+        border: 1px solid #ededed;
+        border-radius: 5px;
+        background: #ededed;
+        padding: 0.3rem;
+        font-size: 1.1rem;
+      }
+      #arrow-mon{
+
+      }
+
+      #sel-day {
+        border: 1px solid #ededed;
+        border-radius: 5px;
+        background: #ededed;
+        padding: 0.3rem;
+        font-size: 1.1rem;
+      }
+      #sel-year {
+        border: 1px solid #ededed;
+        border-radius: 5px;
+        background: #ededed;
+        padding: 0.3rem;
+        font-size: 1.1rem;
+      }
+      #radio{
+        display:inline-block;
+        font-size: 1rem;
+      }
+      #checkbox {
+        font-size: 15em;
+      }
+      #button {
+        background: #ef2b2f;
+        color: #fff;
+        font-family: Terminal Dosis;
+        font-size: 1.4em;
+        font-weight: bold;
+        padding: 17px 70px;
+        cursor: pointer;
+        border-radius: 3px;
+        border: white;
+        float: right;
+        margin-top: 4%;
+      }
+      #gender{
+        display:none;
+      }
+      #male{
+        display:none;
+      }
+      #female{
+        display:none;
+      }
+
+    }
+
+    #cards {
+      margin-top: -10rem;
+      margin-left: -11rem;
+    }
+
+
+
+    #footer-main {
+
+
+      #section-footer {
+        background: #006b41;
+
+        padding: 3% 5%;
+
+        #footer-section1 {
+          padding-left: 11%;
+          font-size: 1.5em;
+          display: inline-block;
+
+          #sect1a {
+            color: white;
+            text-decoration: none;
+            font-family: Arial;
+            font-size: 1em;
+          }
+          #sect2a {
+            color: white;
+            text-decoration: none;
+            font-family: Arial;
+            font-size: 1rem;
+          }
+          #sect3a {
+            color: white;
+            text-decoration: none;
+            font-family: Arial;
+            font-size: 1rem;
+          }
+          #sect4a {
+            color: white;
+            text-decoration: none;
+            font-family: Arial;
+            font-size: 1rem;
+          }
+          #sect5a {
+            color: white;
+            text-decoration: none;
+            font-family: Arial;
+            font-size: 1rem;
+          }
+        }
+      .line1{
+        display: none;
+      }
+        #footer-section2 {
+          padding-left: 10%;
+          font-size: 1.5em;
+          display: inline-block;
+
+          #sect1b {
+            color: white;
+            text-decoration: none;
+            font-family: Arial;
+            font-size: 1em;
+          }
+          #sect2b {
+            color: white;
+            text-decoration: none;
+            font-family: Arial;
+            font-size: 1rem;
+          }
+          #sect3b {
+            color: white;
+            text-decoration: none;
+            font-family: Arial;
+            font-size: 1rem;
+          }
+          #sect4b {
+            color: white;
+            text-decoration: none;
+            font-family: Arial;
+            font-size: 1rem;
+          }
+          #sect5b {
+            color: white;
+            text-decoration: none;
+            font-family: Arial;
+            font-size: 1rem;
+          }
+        }
+        .line2{
+          display: none;
+        }
+        #footer-section3 {
+          padding-left: 10%;
+          font-size: 1.5em;
+          display: inline-block;
+
+          #sect1c {
+            color: white;
+            text-decoration: none;
+            font-family: Arial;
+            font-size: 1em;
+          }
+          #sect2c {
+            color: white;
+            text-decoration: none;
+            font-family: Arial;
+            font-size: 1rem;
+          }
+          #sect3c {
+            color: white;
+            text-decoration: none;
+            font-family: Arial;
+            font-size: 1rem;
+          }
+          #sect4c {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            font-family: Arial;
+            font-size: 1rem;
+          }
+          #sect5c {
+            color: white;
+            text-decoration: none;
+            font-family: Arial;
+            font-size: 1rem;
+          }
+        }
+        .line3{
+          display: none;
+        }
+        #footer-section4 {
+
+          font-size: 1.5em;
+          display: inline-block;
+          padding-left: 11%;
+
+
+          #sect1d {
+            color: white;
+            text-decoration: none;
+            font-family: Arial;
+            font-size: 1em;
+
+          }
+
+          #sect2d {
+            color: white;
+            text-decoration: none;
+            font-family: Arial;
+            font-size: 1rem;
+          }
+
+          #sect3d {
+            color: white;
+            text-decoration: none;
+            font-family: Arial;
+            font-size: 1rem;
+          }
+
+          #sect4d {
+            color: white;
+            text-decoration: none;
+            font-family: Arial;
+            font-size: 1rem;
+          }
+
+          #sect5d {
+            color: white;
+            text-decoration: none;
+            font-family: Arial;
+            font-size: 1rem;
+          }
+          .line4{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+}
+@import "responsive780.scss";
+@import "responsive.scss";
+
+
+

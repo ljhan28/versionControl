@@ -1,0 +1,1225 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../tools/ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../tools/ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../tools/ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../tools/ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../tools/ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../tools/ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../tools/ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../tools/ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../tools/ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 10, ../sass/screen.scss */
+html body div#divStripe {
+  text-align: center;
+  background: url("../head.png") repeat-x;
+  margin-top: 4.5%;
+}
+/* line 17, ../sass/screen.scss */
+html body #search {
+  display: none;
+}
+/* line 20, ../sass/screen.scss */
+html body #menu-container {
+  text-align: center;
+  border: .1em solid #1c8b50;
+  margin: 1em 4em 1em 4em;
+  font-size: 1.7rem;
+}
+/* line 25, ../sass/screen.scss */
+html body #menu-container nav {
+  background: none;
+  height: 5rem;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+}
+/* line 36, ../sass/screen.scss */
+html body #menu-container nav li {
+  display: inline-block;
+  float: left;
+  position: relative;
+  margin: 1em 2em 0em 2em;
+}
+/* line 43, ../sass/screen.scss */
+html body #menu-container nav li a {
+  color: #1c8b50;
+  text-decoration: none;
+  padding: 6% 16%;
+}
+/* line 50, ../sass/screen.scss */
+html body #menu-container nav li a:hover {
+  background: none;
+}
+/* line 54, ../sass/screen.scss */
+html body #menu-container nav li a span {
+  width: 25px;
+  margin: 0 auto;
+}
+/* line 59, ../sass/screen.scss */
+html body #menu-container nav li a:hover:after {
+  border-left: solid transparent 15px;
+  border-right: solid transparent 15px;
+  bottom: -1.17em;
+  border-bottom: solid #1c8b50 15px;
+  content: " ";
+  height: 0;
+  left: 50%;
+  margin-left: -10px;
+  position: absolute;
+  width: 0;
+}
+/* line 73, ../sass/screen.scss */
+html body #header3 {
+  display: block;
+  font-size: 2em;
+  font-family: Terminal Dosis;
+  font-weight: 500;
+  margin: 2%;
+}
+/* line 82, ../sass/screen.scss */
+html body #h2 {
+  text-align: center;
+  font-size: 1.6em;
+  font-family: Terminal Dosis;
+  margin-top: 2%;
+}
+/* line 89, ../sass/screen.scss */
+html body #section1 {
+  display: inline-block;
+  margin: 6% 33.5% 3% 33.5%;
+}
+/* line 94, ../sass/screen.scss */
+html body #regform {
+  color: #ef2b2f;
+  float: left;
+  display: inline-block;
+  margin-top: -1.1em;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: Terminal Dosis;
+  margin-left: -.5em;
+}
+/* line 105, ../sass/screen.scss */
+html body #form {
+  font-family: Terminal Dosis;
+  border-radius: 7px;
+  box-shadow: 0px 3px 100px #706f71;
+  width: 101%;
+  margin-left: -4%;
+  display: inline-block;
+  padding: 10%;
+}
+/* line 114, ../sass/screen.scss */
+html body #form #name {
+  font-size: 1.7em;
+  display: inline-block;
+  margin: 3% 0% 0% 0%;
+  text-align: left;
+}
+/* line 121, ../sass/screen.scss */
+html body #form #font-name {
+  font-size: 1rem;
+  border: #ededed;
+  background: #ededed;
+  margin-left: 1rem;
+  padding: 1rem 9.3rem 1rem 0rem;
+}
+/* line 129, ../sass/screen.scss */
+html body #form #email {
+  font-size: 1.7em;
+  display: inline-block;
+  margin: 3% 0% 0% 0%;
+  text-align: left;
+}
+/* line 136, ../sass/screen.scss */
+html body #form #font-email {
+  font-size: 1rem;
+  border: #ededed;
+  background: #ededed;
+  margin-left: 1rem;
+  padding: 1rem 9.3rem 1rem 0rem;
+}
+/* line 143, ../sass/screen.scss */
+html body #form #dob {
+  font-size: 1.5em;
+  display: inline-block;
+  margin: 5% 2% 0% 0%;
+}
+/* line 149, ../sass/screen.scss */
+html body #form #sel-dob {
+  border: 1px solid #ededed;
+  border-radius: 5px;
+  background: #ededed;
+  padding: 0.3rem;
+  font-size: 1.1rem;
+}
+/* line 160, ../sass/screen.scss */
+html body #form #sel-day {
+  border: 1px solid #ededed;
+  border-radius: 5px;
+  background: #ededed;
+  padding: 0.3rem;
+  font-size: 1.1rem;
+}
+/* line 167, ../sass/screen.scss */
+html body #form #sel-year {
+  border: 1px solid #ededed;
+  border-radius: 5px;
+  background: #ededed;
+  padding: 0.3rem;
+  font-size: 1.1rem;
+}
+/* line 174, ../sass/screen.scss */
+html body #form #radio {
+  display: inline-block;
+  font-size: 1rem;
+}
+/* line 178, ../sass/screen.scss */
+html body #form #checkbox {
+  font-size: 15em;
+}
+/* line 181, ../sass/screen.scss */
+html body #form #button {
+  background: #ef2b2f;
+  color: #fff;
+  font-family: Terminal Dosis;
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 17px 70px;
+  cursor: pointer;
+  border-radius: 3px;
+  border: white;
+  float: right;
+  margin-top: 4%;
+}
+/* line 194, ../sass/screen.scss */
+html body #form #gender {
+  display: none;
+}
+/* line 197, ../sass/screen.scss */
+html body #form #male {
+  display: none;
+}
+/* line 200, ../sass/screen.scss */
+html body #form #female {
+  display: none;
+}
+/* line 206, ../sass/screen.scss */
+html body #cards {
+  margin-top: -10rem;
+  margin-left: -11rem;
+}
+/* line 216, ../sass/screen.scss */
+html body #footer-main #section-footer {
+  background: #006b41;
+  padding: 3% 5%;
+}
+/* line 221, ../sass/screen.scss */
+html body #footer-main #section-footer #footer-section1 {
+  padding-left: 11%;
+  font-size: 1.5em;
+  display: inline-block;
+}
+/* line 226, ../sass/screen.scss */
+html body #footer-main #section-footer #footer-section1 #sect1a {
+  color: white;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 1em;
+}
+/* line 232, ../sass/screen.scss */
+html body #footer-main #section-footer #footer-section1 #sect2a {
+  color: white;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 1rem;
+}
+/* line 238, ../sass/screen.scss */
+html body #footer-main #section-footer #footer-section1 #sect3a {
+  color: white;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 1rem;
+}
+/* line 244, ../sass/screen.scss */
+html body #footer-main #section-footer #footer-section1 #sect4a {
+  color: white;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 1rem;
+}
+/* line 250, ../sass/screen.scss */
+html body #footer-main #section-footer #footer-section1 #sect5a {
+  color: white;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 1rem;
+}
+/* line 257, ../sass/screen.scss */
+html body #footer-main #section-footer .line1 {
+  display: none;
+}
+/* line 260, ../sass/screen.scss */
+html body #footer-main #section-footer #footer-section2 {
+  padding-left: 10%;
+  font-size: 1.5em;
+  display: inline-block;
+}
+/* line 265, ../sass/screen.scss */
+html body #footer-main #section-footer #footer-section2 #sect1b {
+  color: white;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 1em;
+}
+/* line 271, ../sass/screen.scss */
+html body #footer-main #section-footer #footer-section2 #sect2b {
+  color: white;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 1rem;
+}
+/* line 277, ../sass/screen.scss */
+html body #footer-main #section-footer #footer-section2 #sect3b {
+  color: white;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 1rem;
+}
+/* line 283, ../sass/screen.scss */
+html body #footer-main #section-footer #footer-section2 #sect4b {
+  color: white;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 1rem;
+}
+/* line 289, ../sass/screen.scss */
+html body #footer-main #section-footer #footer-section2 #sect5b {
+  color: white;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 1rem;
+}
+/* line 296, ../sass/screen.scss */
+html body #footer-main #section-footer .line2 {
+  display: none;
+}
+/* line 299, ../sass/screen.scss */
+html body #footer-main #section-footer #footer-section3 {
+  padding-left: 10%;
+  font-size: 1.5em;
+  display: inline-block;
+}
+/* line 304, ../sass/screen.scss */
+html body #footer-main #section-footer #footer-section3 #sect1c {
+  color: white;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 1em;
+}
+/* line 310, ../sass/screen.scss */
+html body #footer-main #section-footer #footer-section3 #sect2c {
+  color: white;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 1rem;
+}
+/* line 316, ../sass/screen.scss */
+html body #footer-main #section-footer #footer-section3 #sect3c {
+  color: white;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 1rem;
+}
+/* line 322, ../sass/screen.scss */
+html body #footer-main #section-footer #footer-section3 #sect4c {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: Arial;
+  font-size: 1rem;
+}
+/* line 329, ../sass/screen.scss */
+html body #footer-main #section-footer #footer-section3 #sect5c {
+  color: white;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 1rem;
+}
+/* line 336, ../sass/screen.scss */
+html body #footer-main #section-footer .line3 {
+  display: none;
+}
+/* line 339, ../sass/screen.scss */
+html body #footer-main #section-footer #footer-section4 {
+  font-size: 1.5em;
+  display: inline-block;
+  padding-left: 11%;
+}
+/* line 346, ../sass/screen.scss */
+html body #footer-main #section-footer #footer-section4 #sect1d {
+  color: white;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 1em;
+}
+/* line 354, ../sass/screen.scss */
+html body #footer-main #section-footer #footer-section4 #sect2d {
+  color: white;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 1rem;
+}
+/* line 361, ../sass/screen.scss */
+html body #footer-main #section-footer #footer-section4 #sect3d {
+  color: white;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 1rem;
+}
+/* line 368, ../sass/screen.scss */
+html body #footer-main #section-footer #footer-section4 #sect4d {
+  color: white;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 1rem;
+}
+/* line 375, ../sass/screen.scss */
+html body #footer-main #section-footer #footer-section4 #sect5d {
+  color: white;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 1rem;
+}
+/* line 381, ../sass/screen.scss */
+html body #footer-main #section-footer #footer-section4 .line4 {
+  display: none;
+}
+
+@media only screen and (max-width: 780px) {
+  /* line 5, ../sass/_responsive780.scss */
+  html body div#divStripe {
+    text-align: center;
+    background: url("../head.png") repeat-x;
+    margin-top: 4.5%;
+  }
+  /* line 12, ../sass/_responsive780.scss */
+  html body #search {
+    display: none;
+  }
+  /* line 16, ../sass/_responsive780.scss */
+  html body nav {
+    background: none;
+    width: 85%;
+    height: 3.5rem;
+    margin: 0 auto;
+    font-size: 1.1em;
+    margin-top: 1em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border: .1em solid #1c8b50;
+  }
+  /* line 27, ../sass/_responsive780.scss */
+  html body nav li {
+    display: inline-block;
+    float: left;
+    position: relative;
+    margin: 1em 2em 0em 2em;
+  }
+  /* line 34, ../sass/_responsive780.scss */
+  html body nav li a {
+    color: #1c8b50;
+    text-decoration: none;
+    padding: 0px 0px;
+    display: inline-block;
+  }
+  /* line 41, ../sass/_responsive780.scss */
+  html body nav li a:hover {
+    background: none;
+  }
+  /* line 45, ../sass/_responsive780.scss */
+  html body nav li a span {
+    width: 25px;
+    margin: 0 auto;
+  }
+  /* line 50, ../sass/_responsive780.scss */
+  html body nav li a:hover:after {
+    border-left: solid transparent 15px;
+    border-right: solid transparent 15px;
+    bottom: -21.33px;
+    border-bottom: solid #1c8b50 15px;
+    content: " ";
+    height: 0;
+    left: 50%;
+    margin-left: -10px;
+    position: absolute;
+    width: 0;
+  }
+  /* line 63, ../sass/_responsive780.scss */
+  html body #header3 {
+    display: block;
+    font-size: 2em;
+    font-family: Terminal Dosis;
+    font-weight: 500;
+    margin: 2%;
+  }
+  /* line 72, ../sass/_responsive780.scss */
+  html body #h2 {
+    text-align: center;
+    font-size: 1.2em;
+    font-family: Terminal Dosis;
+    margin-top: 2%;
+  }
+  /* line 79, ../sass/_responsive780.scss */
+  html body #section1 {
+    display: inline-block;
+    margin: 6% 20.5% 3% 20.5%;
+  }
+  /* line 84, ../sass/_responsive780.scss */
+  html body #regform {
+    color: #ef2b2f;
+    float: left;
+    display: inline-block;
+    margin-top: -.5em;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: Terminal Dosis;
+    margin-left: 0em;
+  }
+  /* line 95, ../sass/_responsive780.scss */
+  html body #form {
+    font-family: Terminal Dosis;
+    border-radius: 7px;
+    box-shadow: 0px 3px 100px #706f71;
+    width: auto;
+    display: inline-block;
+    padding: 10%;
+    margin-left: 0em;
+  }
+  /* line 105, ../sass/_responsive780.scss */
+  html body #form #name {
+    font-size: 1.4rem;
+    display: inline-block;
+    margin: 3% 0% 0% 0%;
+    text-align: left;
+  }
+  /* line 112, ../sass/_responsive780.scss */
+  html body #form #font-name {
+    font-size: 1rem;
+    border: #ededed;
+    background: #ededed;
+    margin-left: 1rem;
+    padding: 1rem 9.3rem 1rem 0rem;
+    width: 56%;
+  }
+  /* line 121, ../sass/_responsive780.scss */
+  html body #form #email {
+    font-size: 1.4rem;
+    display: inline-block;
+    margin: 3% 0% 0% 0%;
+    text-align: left;
+  }
+  /* line 128, ../sass/_responsive780.scss */
+  html body #form #font-email {
+    font-size: 1rem;
+    border: #ededed;
+    background: #ededed;
+    margin-left: 1rem;
+    padding: 1rem 9.3rem 1rem 0rem;
+    width: 56%;
+  }
+  /* line 136, ../sass/_responsive780.scss */
+  html body #form #dob {
+    font-size: 1.3rem;
+    display: inline-block;
+    margin: 5% 2% 0% 0%;
+  }
+  /* line 142, ../sass/_responsive780.scss */
+  html body #form #sel-dob {
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    background: #ededed;
+    padding: 0.3rem;
+    font-size: .9rem;
+  }
+  /* line 153, ../sass/_responsive780.scss */
+  html body #form #sel-day {
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    background: #ededed;
+    padding: 0.3rem;
+    font-size: .9rem;
+  }
+  /* line 160, ../sass/_responsive780.scss */
+  html body #form #sel-year {
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    background: #ededed;
+    padding: 0.3rem;
+    font-size: .9rem;
+  }
+  /* line 167, ../sass/_responsive780.scss */
+  html body #form #radio {
+    display: inline-block;
+    font-size: 1rem;
+  }
+  /* line 171, ../sass/_responsive780.scss */
+  html body #form #checkbox {
+    font-size: 15em;
+  }
+  /* line 174, ../sass/_responsive780.scss */
+  html body #form #button {
+    background: #ef2b2f;
+    color: #fff;
+    font-family: Terminal Dosis;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 15px 82px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: white;
+    float: right;
+    margin-top: 4%;
+  }
+  /* line 187, ../sass/_responsive780.scss */
+  html body #form #gender {
+    display: none;
+  }
+  /* line 190, ../sass/_responsive780.scss */
+  html body #form #male {
+    display: none;
+  }
+  /* line 193, ../sass/_responsive780.scss */
+  html body #form #female {
+    display: none;
+  }
+  /* line 199, ../sass/_responsive780.scss */
+  html body #cards {
+    margin-top: -10rem;
+    margin-left: -9rem;
+  }
+  /* line 206, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer {
+    background: #006b41;
+    padding: 3% 0%;
+  }
+  /* line 211, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer #footer-section1 {
+    padding-left: 11%;
+    font-size: 1.5em;
+    display: inline-block;
+  }
+  /* line 216, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer #footer-section1 #sect1a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: .8em;
+  }
+  /* line 223, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer #footer-section1 #sect2a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: .8rem;
+  }
+  /* line 229, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer #footer-section1 #sect3a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: .8rem;
+  }
+  /* line 235, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer #footer-section1 #sect4a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: .8rem;
+  }
+  /* line 241, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer #footer-section1 #sect5a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: .8rem;
+  }
+  /* line 248, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer .line1 {
+    display: none;
+  }
+  /* line 251, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer #footer-section2 {
+    padding-left: 10%;
+    font-size: 1.5em;
+    display: inline-block;
+  }
+  /* line 256, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer #footer-section2 #sect1b {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: .8em;
+  }
+  /* line 262, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer #footer-section2 #sect2b {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: .8rem;
+  }
+  /* line 268, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer #footer-section2 #sect3b {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: .8rem;
+  }
+  /* line 274, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer #footer-section2 #sect4b {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: .8rem;
+  }
+  /* line 280, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer #footer-section2 #sect5b {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: .8rem;
+  }
+  /* line 287, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer .line2 {
+    display: none;
+  }
+  /* line 290, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer #footer-section3 {
+    padding-left: 10%;
+    font-size: 1.5em;
+    display: inline-block;
+  }
+  /* line 295, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer #footer-section3 #sect1c {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: .8em;
+  }
+  /* line 301, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer #footer-section3 #sect2c {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: .8rem;
+  }
+  /* line 307, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer #footer-section3 #sect3c {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: .8rem;
+  }
+  /* line 313, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer #footer-section3 #sect4c {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: Arial;
+    font-size: .8rem;
+  }
+  /* line 320, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer #footer-section3 #sect5c {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: .8rem;
+  }
+  /* line 327, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer .line3 {
+    display: none;
+  }
+  /* line 330, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer #footer-section4 {
+    font-size: 1.5em;
+    display: inline-block;
+    padding-left: 11%;
+  }
+  /* line 336, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer #footer-section4 #sect1d {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: .8em;
+  }
+  /* line 344, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer #footer-section4 #sect2d {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: .8rem;
+  }
+  /* line 351, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer #footer-section4 #sect3d {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: .8rem;
+  }
+  /* line 358, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer #footer-section4 #sect4d {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: .8rem;
+  }
+  /* line 365, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer #footer-section4 #sect5d {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: .8rem;
+  }
+  /* line 371, ../sass/_responsive780.scss */
+  html body #footer-main #section-footer #footer-section4 .line4 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 550px) {
+  /* line 4, ../sass/_responsive.scss */
+  html body {
+    text-align: left;
+  }
+  /* line 8, ../sass/_responsive.scss */
+  html body #nav-icon2 {
+    background: #bcbcbc;
+    height: 100%;
+    width: 100%;
+  }
+  /* line 13, ../sass/_responsive.scss */
+  html body #nav-icon2 #bar1 {
+    width: 4rem;
+    height: .6em;
+    background-color: #fff;
+    margin: 1em 0em 0.9em 1em;
+    border-radius: 4px;
+  }
+  /* line 20, ../sass/_responsive.scss */
+  html body #nav-icon2 #bar2 {
+    width: 4rem;
+    height: .6em;
+    background-color: #fff;
+    margin: 1em 0em 0.9em 1em;
+    border-radius: 4px;
+  }
+  /* line 27, ../sass/_responsive.scss */
+  html body #nav-icon2 #bar3 {
+    width: 4rem;
+    height: .6em;
+    background-color: #fff;
+    margin: 1em 0em 0.9em 1em;
+    border-radius: 4px;
+  }
+  /* line 35, ../sass/_responsive.scss */
+  html body #nav-icon2 #search {
+    float: right;
+    margin: -4.5em .5em 0em 0em;
+    border-radius: 8px;
+    background: #bcbcbc;
+    background: url("../searchicon.PNG");
+    background-repeat: no-repeat;
+    background-position: right;
+    border: 2px solid white;
+    height: 2em;
+    width: 40%;
+    display: inline-block !important;
+    color: white;
+  }
+  /* line 50, ../sass/_responsive.scss */
+  html body #nav {
+    display: none;
+  }
+  /* line 54, ../sass/_responsive.scss */
+  html body #header3 {
+    font-size: 1.6em;
+    text-align: left;
+    margin: 2% 6% 0% 6%;
+  }
+  /* line 59, ../sass/_responsive.scss */
+  html body #h2 {
+    font-size: 1.2em;
+    font-weight: inherit;
+    margin-top: 1em;
+    text-align: left;
+    margin: 2% 6% 0% 6%;
+  }
+  /* line 67, ../sass/_responsive.scss */
+  html body #section1 {
+    margin: 0%;
+  }
+  /* line 70, ../sass/_responsive.scss */
+  html body #section1 #regform {
+    margin-top: 1rem;
+    font-weight: normal;
+    margin: 4% 6% 0% 6%;
+  }
+  /* line 76, ../sass/_responsive.scss */
+  html body #section1 #form {
+    box-shadow: none;
+    /*width: 100%;
+    align:left;
+    display: block !important;*/
+    margin-left: 27px;
+    display: block;
+    padding: 0;
+  }
+  /* line 85, ../sass/_responsive.scss */
+  html body #section1 #form #name {
+    font-weight: normal;
+  }
+  /* line 89, ../sass/_responsive.scss */
+  html body #section1 #form #font-name {
+    height: 1.2em;
+    width: 60%;
+    margin: 1.5% 0% 1.5% 0%;
+  }
+  /* line 95, ../sass/_responsive.scss */
+  html body #section1 #form #email {
+    font-weight: normal;
+  }
+  /* line 99, ../sass/_responsive.scss */
+  html body #section1 #form #font-email {
+    height: 1.2em;
+    width: 60%;
+    margin: 1.5% 0% 1.5% 0%;
+  }
+  /* line 105, ../sass/_responsive.scss */
+  html body #section1 #form #dob {
+    display: -webkit-box;
+  }
+  /* line 109, ../sass/_responsive.scss */
+  html body #section1 #form #sel-dob {
+    margin: 1.5% 0% 0% 0%;
+    width: 30%;
+    text-align: center;
+  }
+  /* line 115, ../sass/_responsive.scss */
+  html body #section1 #form #sel-day {
+    margin: 1.5% 2.8% 0% 2.8%;
+    width: 25%;
+    text-align: center;
+  }
+  /* line 120, ../sass/_responsive.scss */
+  html body #section1 #form #sel-year {
+    margin: 1.5% 0% 0% 0%;
+    width: 25%;
+    text-align: center;
+  }
+  /* line 125, ../sass/_responsive.scss */
+  html body #section1 #form #gender {
+    font-size: 1.5em;
+    margin: 5% 2% 0% 0%;
+  }
+  /* line 129, ../sass/_responsive.scss */
+  html body #section1 #form #radio {
+    margin: 1em 0em 0em 0em;
+  }
+  /* line 132, ../sass/_responsive.scss */
+  html body #section1 #form .control {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  /* line 140, ../sass/_responsive.scss */
+  html body #section1 #form .control input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  /* line 145, ../sass/_responsive.scss */
+  html body #section1 #form .control__indicator {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background: #e6e6e6;
+  }
+  /* line 153, ../sass/_responsive.scss */
+  html body #section1 #form .control--radio .control__indicator {
+    border-radius: 50%;
+  }
+  /* line 156, ../sass/_responsive.scss */
+  html body #section1 #form .control:hover input ~ .control__indicator,
+  html body #section1 #form .control input:focus ~ .control__indicator {
+    background: #ccc;
+  }
+  /* line 160, ../sass/_responsive.scss */
+  html body #section1 #form .control input:checked ~ .control__indicator {
+    background: #e0e0e0;
+  }
+  /* line 163, ../sass/_responsive.scss */
+  html body #section1 #form .control:hover input:not([disabled]):checked ~ .control__indicator,
+  html body #section1 #form .control input:checked:focus ~ .control__indicator {
+    background: #e0e0e0;
+  }
+  /* line 167, ../sass/_responsive.scss */
+  html body #section1 #form .control__indicator:after {
+    content: '';
+    position: absolute;
+    display: none;
+  }
+  /* line 172, ../sass/_responsive.scss */
+  html body #section1 #form .control input:checked ~ .control__indicator:after {
+    display: block;
+  }
+  /* line 175, ../sass/_responsive.scss */
+  html body #section1 #form .control--checkbox input:disabled ~ .control__indicator:after {
+    border-color: #7b7b7b;
+  }
+  /* line 178, ../sass/_responsive.scss */
+  html body #section1 #form .control--radio .control__indicator:after {
+    left: 6px;
+    top: 6px;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: #ff4f00;
+  }
+  /* line 186, ../sass/_responsive.scss */
+  html body #section1 #form .control--radio input:disabled ~ .control__indicator:after {
+    background: #7b7b7b;
+  }
+  /* line 190, ../sass/_responsive.scss */
+  html body #section1 #form #button {
+    float: left;
+    font-weight: normal;
+    padding: 9px 32px;
+    margin-top: 5rem;
+  }
+  /* line 199, ../sass/_responsive.scss */
+  html body #section1 #cards {
+    margin-bottom: 0;
+    text-align: right;
+    margin-right: -5em;
+    margin-top: -2rem;
+    float: right;
+  }
+  /* line 212, ../sass/_responsive.scss */
+  html body #footer-main #section-footer #footer-section1 {
+    font-size: 1.2rem;
+    text-align: center;
+    display: block !important;
+    margin-left: 0;
+    padding: 0;
+  }
+  /* line 219, ../sass/_responsive.scss */
+  html body #footer-main #section-footer #footer-section1 #sect1a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 1.2em;
+  }
+  /* line 226, ../sass/_responsive.scss */
+  html body #footer-main #section-footer #footer-section1 #sect2a {
+    display: none;
+  }
+  /* line 229, ../sass/_responsive.scss */
+  html body #footer-main #section-footer #footer-section1 #sect3a {
+    display: none;
+  }
+  /* line 232, ../sass/_responsive.scss */
+  html body #footer-main #section-footer #footer-section1 #sect4a {
+    display: none;
+  }
+  /* line 235, ../sass/_responsive.scss */
+  html body #footer-main #section-footer #footer-section1 #sect5a {
+    display: none;
+  }
+  /* line 239, ../sass/_responsive.scss */
+  html body #footer-main #section-footer .line1 {
+    width: 343px;
+    border: 1px solid #358968 !important;
+    margin: auto;
+    display: block !important;
+  }
+  /* line 246, ../sass/_responsive.scss */
+  html body #footer-main #section-footer #footer-section2 {
+    font-size: 1.2rem;
+    text-align: center;
+    display: block !important;
+    margin-left: 0;
+    margin-top: 33px;
+    padding: 0;
+  }
+  /* line 254, ../sass/_responsive.scss */
+  html body #footer-main #section-footer #footer-section2 #sect1b {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 1.2em;
+  }
+  /* line 260, ../sass/_responsive.scss */
+  html body #footer-main #section-footer #footer-section2 #sect2b {
+    display: none;
+  }
+  /* line 263, ../sass/_responsive.scss */
+  html body #footer-main #section-footer #footer-section2 #sect3b {
+    display: none;
+  }
+  /* line 266, ../sass/_responsive.scss */
+  html body #footer-main #section-footer #footer-section2 #sect4b {
+    display: none;
+  }
+  /* line 269, ../sass/_responsive.scss */
+  html body #footer-main #section-footer #footer-section2 #sect5b {
+    display: none;
+  }
+  /* line 273, ../sass/_responsive.scss */
+  html body #footer-main #section-footer .line2 {
+    width: 343px;
+    border: 1px solid #358968 !important;
+    margin: auto;
+    display: block !important;
+  }
+  /* line 280, ../sass/_responsive.scss */
+  html body #footer-main #section-footer #footer-section3 {
+    font-size: 1.2rem;
+    text-align: center;
+    display: block !important;
+    margin-top: 37px;
+    margin-left: 0 !important;
+    padding: 0;
+  }
+  /* line 288, ../sass/_responsive.scss */
+  html body #footer-main #section-footer #footer-section3 #sect1c {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 1.2em;
+  }
+  /* line 295, ../sass/_responsive.scss */
+  html body #footer-main #section-footer #footer-section3 #sect2c {
+    display: none;
+  }
+  /* line 298, ../sass/_responsive.scss */
+  html body #footer-main #section-footer #footer-section3 #sect3c {
+    display: none;
+  }
+  /* line 301, ../sass/_responsive.scss */
+  html body #footer-main #section-footer #footer-section3 #sect4c {
+    display: none;
+  }
+  /* line 304, ../sass/_responsive.scss */
+  html body #footer-main #section-footer #footer-section3 #sect5c {
+    display: none;
+  }
+  /* line 309, ../sass/_responsive.scss */
+  html body #footer-main #section-footer .line3 {
+    width: 343px;
+    border: 1px solid #358968;
+    margin: auto;
+    display: block !important;
+  }
+  /* line 316, ../sass/_responsive.scss */
+  html body #footer-main #section-footer #footer-section4 {
+    font-size: 1.2rem;
+    text-align: center;
+    display: block !important;
+    margin-top: 37px;
+    margin-left: 0 !important;
+    padding: 0;
+  }
+  /* line 323, ../sass/_responsive.scss */
+  html body #footer-main #section-footer #footer-section4 #sect1d {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 1.2em;
+  }
+  /* line 330, ../sass/_responsive.scss */
+  html body #footer-main #section-footer #footer-section4 #sect2d {
+    display: none;
+  }
+  /* line 333, ../sass/_responsive.scss */
+  html body #footer-main #section-footer #footer-section4 #sect3d {
+    display: none;
+  }
+  /* line 336, ../sass/_responsive.scss */
+  html body #footer-main #section-footer #footer-section4 #sect4d {
+    display: none;
+  }
+  /* line 339, ../sass/_responsive.scss */
+  html body #footer-main #section-footer #footer-section4 #sect5d {
+    display: none;
+  }
+  /* line 343, ../sass/_responsive.scss */
+  html body #footer-main #section-footer .line4 {
+    width: 343px;
+    border: 1px solid #358968;
+    margin: auto;
+    display: block !important;
+  }
+}
